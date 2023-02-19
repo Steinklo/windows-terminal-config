@@ -1,0 +1,92 @@
+{
+	"persistedWindowLayouts" : 
+	[
+		{
+			"initialPosition" : "0,-8",
+			"initialSize" : 
+			{
+				"height" : 1368.0,
+				"width" : 2560.0
+			},
+			"launchMode" : "maximized",
+			"tabLayout" : 
+			[
+				{
+					"action" : "newTab",
+					"commandline" : "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+					"profile" : "Windows PowerShell",
+					"startingDirectory" : "C:\\Users\\david",
+					"suppressApplicationTitle" : false,
+					"tabTitle" : "Windows PowerShell"
+				},
+				{
+					"action" : "newTab",
+					"commandline" : "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+					"profile" : "Windows PowerShell",
+					"startingDirectory" : "C:\\Users\\david",
+					"suppressApplicationTitle" : false,
+					"tabTitle" : "Windows PowerShell"
+				},
+				{
+					"action" : "splitPane",
+					"commandline" : "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+					"profile" : "Windows PowerShell",
+					"size" : 0.5,
+					"split" : "down",
+					"splitMode" : "manual",
+					"startingDirectory" : "C:\\Users\\david",
+					"suppressApplicationTitle" : false,
+					"tabTitle" : "Windows PowerShell"
+				},
+				{
+					"action" : "focusPane",
+					"id" : 1
+				},
+				{
+					"action" : "openSettings",
+					"target" : "settingsUI"
+				},
+				{
+					"action" : "newTab",
+					"commandline" : "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+					"profile" : "Windows PowerShell",
+					"startingDirectory" : "C:\\Users\\david",
+					"suppressApplicationTitle" : false,
+					"tabTitle" : "Windows PowerShell"
+				},
+				{
+					"action" : "newTab",
+					"commandline" : "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+					"profile" : "Windows PowerShell",
+					"startingDirectory" : "C:\\Users\\david",
+					"suppressApplicationTitle" : false,
+					"tabTitle" : "Windows PowerShell"
+				},
+				{
+					"action" : "splitPane",
+					"commandline" : "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+					"profile" : "Windows PowerShell",
+					"size" : 0.14999991655349731,
+					"split" : "down",
+					"splitMode" : "manual",
+					"startingDirectory" : "C:\\Users\\david",
+					"suppressApplicationTitle" : false,
+					"tabTitle" : "Windows PowerShell"
+				},
+				{
+					"action" : "focusPane",
+					"id" : 1
+				},
+				{
+					"action" : "newTab",
+					"commandline" : "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+					"profile" : "Windows PowerShell",
+					"startingDirectory" : "C:\\Users\\david\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState",
+					"suppressApplicationTitle" : false,
+					"tabTitle" : "Windows PowerShell"
+				}
+			]
+		}
+	],
+	"settingsHash" : "2a572e8e3c9166c6-01d9448e8202a012"
+}
