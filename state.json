@@ -1,4 +1,14 @@
 {
+	"dismissedMessages" : 
+	[
+		"setAsDefault",
+		"closeOnExitInfo"
+	],
+	"generatedProfiles" : 
+	[
+		"{abb4f0d1-82bf-57e5-8919-ea401a4da516}",
+		"{62636333-2521-5306-ba3f-d5df0005e201}"
+	],
 	"persistedWindowLayouts" : 
 	[
 		{
@@ -20,49 +30,6 @@
 					"tabTitle" : "Windows PowerShell"
 				},
 				{
-					"action" : "newTab",
-					"commandline" : "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
-					"profile" : "Windows PowerShell",
-					"startingDirectory" : "C:\\Users\\david",
-					"suppressApplicationTitle" : false,
-					"tabTitle" : "Windows PowerShell"
-				},
-				{
-					"action" : "splitPane",
-					"commandline" : "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
-					"profile" : "Windows PowerShell",
-					"size" : 0.5,
-					"split" : "down",
-					"splitMode" : "manual",
-					"startingDirectory" : "C:\\Users\\david",
-					"suppressApplicationTitle" : false,
-					"tabTitle" : "Windows PowerShell"
-				},
-				{
-					"action" : "focusPane",
-					"id" : 1
-				},
-				{
-					"action" : "openSettings",
-					"target" : "settingsUI"
-				},
-				{
-					"action" : "newTab",
-					"commandline" : "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
-					"profile" : "Windows PowerShell",
-					"startingDirectory" : "C:\\Users\\david",
-					"suppressApplicationTitle" : false,
-					"tabTitle" : "Windows PowerShell"
-				},
-				{
-					"action" : "newTab",
-					"commandline" : "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
-					"profile" : "Windows PowerShell",
-					"startingDirectory" : "C:\\Users\\david",
-					"suppressApplicationTitle" : false,
-					"tabTitle" : "Windows PowerShell"
-				},
-				{
 					"action" : "splitPane",
 					"commandline" : "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
 					"profile" : "Windows PowerShell",
@@ -75,18 +42,22 @@
 				},
 				{
 					"action" : "focusPane",
-					"id" : 1
+					"id" : 0
 				},
 				{
 					"action" : "newTab",
 					"commandline" : "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
 					"profile" : "Windows PowerShell",
-					"startingDirectory" : "C:\\Users\\david\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState",
+					"startingDirectory" : "C:\\Users\\david",
 					"suppressApplicationTitle" : false,
 					"tabTitle" : "Windows PowerShell"
+				},
+				{
+					"action" : "openSettings",
+					"target" : "settingsUI"
 				}
 			]
 		}
 	],
-	"settingsHash" : "2a572e8e3c9166c6-01d9448e8202a012"
+	"settingsHash" : "63dba051d9fa2259-01d9a8472b38761c"
 }
