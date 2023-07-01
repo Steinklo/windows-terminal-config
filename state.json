@@ -33,7 +33,7 @@
 					"action" : "splitPane",
 					"commandline" : "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
 					"profile" : "Windows PowerShell",
-					"size" : 0.14999991655349731,
+					"size" : 0.099999904632568359,
 					"split" : "down",
 					"splitMode" : "manual",
 					"startingDirectory" : "C:\\Users\\david",
@@ -43,21 +43,9 @@
 				{
 					"action" : "focusPane",
 					"id" : 0
-				},
-				{
-					"action" : "newTab",
-					"commandline" : "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
-					"profile" : "Windows PowerShell",
-					"startingDirectory" : "C:\\Users\\david",
-					"suppressApplicationTitle" : false,
-					"tabTitle" : "Windows PowerShell"
-				},
-				{
-					"action" : "openSettings",
-					"target" : "settingsUI"
 				}
 			]
 		}
 	],
-	"settingsHash" : "63dba051d9fa2259-01d9a8472b38761c"
+	"settingsHash" : "3fe9a12dad29f5a5-01d9ac3a0e47a7ec"
 }

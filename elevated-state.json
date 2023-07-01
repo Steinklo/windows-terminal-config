@@ -1,0 +1,25 @@
+{
+	"persistedWindowLayouts" : 
+	[
+		{
+			"initialPosition" : "26,26",
+			"initialSize" : 
+			{
+				"height" : 586.0,
+				"width" : 1113.0
+			},
+			"launchMode" : "default",
+			"tabLayout" : 
+			[
+				{
+					"action" : "newTab",
+					"commandline" : "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+					"profile" : "Windows PowerShell",
+					"startingDirectory" : "C:\\Users\\david",
+					"suppressApplicationTitle" : false,
+					"tabTitle" : "Windows PowerShell"
+				}
+			]
+		}
+	]
+}

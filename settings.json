@@ -4,6 +4,9 @@
     "actions": 
     [
         {
+            "command": "find"
+        },
+        {
             "command": 
             {
                 "action": "resizePane",
@@ -12,7 +15,21 @@
             "keys": "alt+h"
         },
         {
-            "command": "find"
+            "command": 
+            {
+                "action": "newTab",
+                "index": 1
+            }
+        },
+        {
+            "command": "paste"
+        },
+        {
+            "command": 
+            {
+                "action": "switchToTab",
+                "index": 3
+            }
         },
         {
             "command": 
@@ -25,18 +42,8 @@
         {
             "command": 
             {
-                "action": "switchToTab",
-                "index": 3
-            }
-        },
-        {
-            "command": "paste"
-        },
-        {
-            "command": 
-            {
-                "action": "newTab",
-                "index": 1
+                "action": "swapPane",
+                "direction": "left"
             }
         },
         {
@@ -44,13 +51,6 @@
             {
                 "action": "swapPane",
                 "direction": "down"
-            }
-        },
-        {
-            "command": 
-            {
-                "action": "swapPane",
-                "direction": "left"
             }
         },
         {
@@ -622,18 +622,19 @@
     {
         "defaults": 
         {
-            "backgroundImage": "C:\\Users\\david\\Downloads\\atlantis_nebula_14-wallpaper-3840x2160.jpg",
+            "backgroundImage": null,
             "backgroundImageOpacity": 0.1,
-            "colorScheme": "Vintage"
+            "backgroundImageStretchMode": "uniformToFill",
+            "colorScheme": "Tango Dark"
         },
         "list": 
         [
             {
-                "backgroundImage": "C:\\Users\\david\\Downloads\\J5Gsr96-space-fantasy-wallpaper.jpg",
+                "backgroundImage": null,
                 "backgroundImageAlignment": "bottomRight",
-                "backgroundImageOpacity": 0.08,
+                "backgroundImageOpacity": 0.19,
                 "backgroundImageStretchMode": "uniformToFill",
-                "colorScheme": "Vintage",
+                "colorScheme": "Tango Dark",
                 "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
                 "experimental.retroTerminalEffect": false,
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
