@@ -17,12 +17,10 @@
         {
             "command": 
             {
-                "action": "newTab",
-                "index": 1
-            }
-        },
-        {
-            "command": "paste"
+                "action": "resizePane",
+                "direction": "up"
+            },
+            "keys": "alt+k"
         },
         {
             "command": 
@@ -34,10 +32,12 @@
         {
             "command": 
             {
-                "action": "resizePane",
-                "direction": "up"
-            },
-            "keys": "alt+k"
+                "action": "newTab",
+                "index": 1
+            }
+        },
+        {
+            "command": "paste"
         },
         {
             "command": 
@@ -65,6 +65,14 @@
             {
                 "action": "newTab",
                 "index": 2
+            }
+        },
+        {
+            "command": 
+            {
+                "action": "splitPane",
+                "split": "auto",
+                "splitMode": "duplicate"
             }
         },
         {
@@ -430,14 +438,6 @@
         {
             "command": 
             {
-                "action": "splitPane",
-                "split": "auto",
-                "splitMode": "duplicate"
-            }
-        },
-        {
-            "command": 
-            {
                 "action": "switchToTab",
                 "index": 0
             }
@@ -460,14 +460,14 @@
         {
             "command": 
             {
-                "action": "closeTab"
+                "action": "newTab",
+                "index": 0
             }
         },
         {
             "command": 
             {
-                "action": "newTab",
-                "index": 0
+                "action": "closeTab"
             }
         },
         {
@@ -480,8 +480,8 @@
         {
             "command": 
             {
-                "action": "switchToTab",
-                "index": 2
+                "action": "newTab",
+                "index": 8
             }
         },
         {
@@ -493,8 +493,8 @@
         {
             "command": 
             {
-                "action": "newTab",
-                "index": 8
+                "action": "switchToTab",
+                "index": 2
             }
         },
         {
@@ -536,14 +536,6 @@
         {
             "command": 
             {
-                "action": "moveFocus",
-                "direction": "down"
-            },
-            "keys": "ctrl+j"
-        },
-        {
-            "command": 
-            {
                 "action": "splitPane",
                 "split": "right"
             },
@@ -552,10 +544,10 @@
         {
             "command": 
             {
-                "action": "splitPane",
-                "split": "left"
+                "action": "moveFocus",
+                "direction": "down"
             },
-            "keys": "ctrl+alt+h"
+            "keys": "ctrl+j"
         },
         {
             "command": 
@@ -563,6 +555,14 @@
                 "action": "newTab",
                 "index": 3
             }
+        },
+        {
+            "command": 
+            {
+                "action": "splitPane",
+                "split": "left"
+            },
+            "keys": "ctrl+alt+h"
         },
         {
             "command": 
@@ -578,18 +578,18 @@
         {
             "command": 
             {
-                "action": "splitPane",
-                "split": "up"
-            },
-            "keys": "ctrl+alt+k"
-        },
-        {
-            "command": 
-            {
                 "action": "resizePane",
                 "direction": "down"
             },
             "keys": "alt+j"
+        },
+        {
+            "command": 
+            {
+                "action": "splitPane",
+                "split": "up"
+            },
+            "keys": "ctrl+alt+k"
         },
         {
             "command": 
@@ -655,40 +655,16 @@
                 "source": "Windows.Terminal.Azure"
             },
             {
-                "guid": "{543d4086-6f7f-5e45-ad68-4934cc31f30b}",
+                "guid": "{51855cb2-8cce-5362-8f54-464b92b32386}",
                 "hidden": false,
-                "name": "Developer Command Prompt for VS 2022 [Preview]",
-                "source": "Windows.Terminal.VisualStudio"
+                "name": "Ubuntu",
+                "source": "CanonicalGroupLimited.Ubuntu_79rhkp1fndgsc"
             },
             {
-                "guid": "{5a5d5127-9032-5c1a-9a6e-dfb530b75dca}",
+                "guid": "{4dd1e689-b517-5f39-947d-78e8a8bdf958}",
                 "hidden": false,
-                "name": "Developer PowerShell for VS 2022 [Preview]",
-                "source": "Windows.Terminal.VisualStudio"
-            },
-            {
-                "guid": "{ff4c9232-de09-5bb3-ab74-fce49288b755}",
-                "hidden": true,
-                "name": "Developer Command Prompt for VS 2022",
-                "source": "Windows.Terminal.VisualStudio"
-            },
-            {
-                "guid": "{5a18c6c3-d7c4-555f-8c93-0a51af3c949b}",
-                "hidden": true,
-                "name": "Developer PowerShell for VS 2022",
-                "source": "Windows.Terminal.VisualStudio"
-            },
-            {
-                "guid": "{abb4f0d1-82bf-57e5-8919-ea401a4da516}",
-                "hidden": true,
-                "name": "Developer Command Prompt for VS 2019",
-                "source": "Windows.Terminal.VisualStudio"
-            },
-            {
-                "guid": "{62636333-2521-5306-ba3f-d5df0005e201}",
-                "hidden": true,
-                "name": "Developer PowerShell for VS 2019",
-                "source": "Windows.Terminal.VisualStudio"
+                "name": "Ubuntu 20.04.6 LTS",
+                "source": "CanonicalGroupLimited.Ubuntu20.04LTS_79rhkp1fndgsc"
             }
         ]
     },
@@ -877,6 +853,29 @@
             "selectionBackground": "#FFFFFF",
             "white": "#D3D7CF",
             "yellow": "#C4A000"
+        },
+        {
+            "background": "#300A24",
+            "black": "#171421",
+            "blue": "#0037DA",
+            "brightBlack": "#767676",
+            "brightBlue": "#08458F",
+            "brightCyan": "#2C9FB3",
+            "brightGreen": "#26A269",
+            "brightPurple": "#A347BA",
+            "brightRed": "#C01C28",
+            "brightWhite": "#F2F2F2",
+            "brightYellow": "#A2734C",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#3A96DD",
+            "foreground": "#FFFFFF",
+            "green": "#26A269",
+            "name": "Ubuntu-20.04-ColorScheme",
+            "purple": "#881798",
+            "red": "#C21A23",
+            "selectionBackground": "#FFFFFF",
+            "white": "#CCCCCC",
+            "yellow": "#A2734C"
         },
         {
             "background": "#300A24",
