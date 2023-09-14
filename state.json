@@ -6,65 +6,60 @@
 	],
 	"generatedProfiles" : 
 	[
-		"{abb4f0d1-82bf-57e5-8919-ea401a4da516}",
 		"{51855cb2-8cce-5362-8f54-464b92b32386}",
+		"{abb4f0d1-82bf-57e5-8919-ea401a4da516}",
 		"{62636333-2521-5306-ba3f-d5df0005e201}",
 		"{4dd1e689-b517-5f39-947d-78e8a8bdf958}"
 	],
 	"persistedWindowLayouts" : 
 	[
 		{
-			"initialPosition" : "234,234",
+			"initialPosition" : "0,-8",
 			"initialSize" : 
 			{
-				"height" : 586.0,
-				"width" : 1113.0
+				"height" : 1368.0,
+				"width" : 2560.0
 			},
-			"launchMode" : "default",
+			"launchMode" : "maximized",
 			"tabLayout" : 
 			[
 				{
 					"action" : "newTab",
 					"commandline" : "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
 					"profile" : "Windows PowerShell",
+					"startingDirectory" : "C:\\Users\\david\\projects\\github.com\\Steinklo\\chat-web-app\\backend\\src",
+					"suppressApplicationTitle" : false,
+					"tabTitle" : "Windows PowerShell"
+				},
+				{
+					"action" : "splitPane",
+					"commandline" : "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+					"profile" : "Windows PowerShell",
+					"size" : 0.11608189344406128,
+					"split" : "down",
+					"splitMode" : "manual",
 					"startingDirectory" : "C:\\Users\\david",
 					"suppressApplicationTitle" : false,
 					"tabTitle" : "Windows PowerShell"
 				},
 				{
-					"action" : "newTab",
-					"commandline" : "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
-					"profile" : "Windows PowerShell",
-					"startingDirectory" : "C:\\Users\\david",
-					"suppressApplicationTitle" : false,
-					"tabTitle" : "Windows PowerShell"
+					"action" : "focusPane",
+					"id" : 0
 				},
 				{
 					"action" : "openSettings",
 					"target" : "settingsUI"
-				}
-			]
-		},
-		{
-			"initialPosition" : "52,52",
-			"initialSize" : 
-			{
-				"height" : 586.0,
-				"width" : 1113.0
-			},
-			"launchMode" : "default",
-			"tabLayout" : 
-			[
+				},
 				{
 					"action" : "newTab",
 					"commandline" : "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
 					"profile" : "Windows PowerShell",
-					"startingDirectory" : "C:\\Users\\david\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState",
+					"startingDirectory" : "C:\\Users\\david",
 					"suppressApplicationTitle" : false,
 					"tabTitle" : "Windows PowerShell"
 				}
 			]
 		}
 	],
-	"settingsHash" : "c291a97ccd3a1aad-01d9e27fbdad7b33"
+	"settingsHash" : "f006feee6ee01693-01d9e2803e1297c6"
 }

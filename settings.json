@@ -634,13 +634,20 @@
                 "backgroundImageAlignment": "bottomRight",
                 "backgroundImageOpacity": 0.19,
                 "backgroundImageStretchMode": "uniformToFill",
-                "colorScheme": "Tango Dark",
+                "colorScheme": "Ubuntu-20.04-ColorScheme",
                 "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
                 "experimental.retroTerminalEffect": false,
+                "font": 
+                {
+                    "size": 13.0
+                },
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "hidden": false,
                 "name": "Windows PowerShell",
-                "opacity": 100
+                "opacity": 100,
+                "padding": "0",
+                "scrollbarState": "hidden",
+                "useAcrylic": true
             },
             {
                 "commandline": "%SystemRoot%\\System32\\cmd.exe",
