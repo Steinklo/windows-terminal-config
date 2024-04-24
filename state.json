@@ -6,10 +6,13 @@
 	],
 	"generatedProfiles" : 
 	[
-		"{51855cb2-8cce-5362-8f54-464b92b32386}",
 		"{abb4f0d1-82bf-57e5-8919-ea401a4da516}",
+		"{51855cb2-8cce-5362-8f54-464b92b32386}",
 		"{62636333-2521-5306-ba3f-d5df0005e201}",
-		"{4dd1e689-b517-5f39-947d-78e8a8bdf958}"
+		"{4dd1e689-b517-5f39-947d-78e8a8bdf958}",
+		"{2febb55e-004a-5b69-9ca6-e180ffd3d0cc}",
+		"{a7d195f5-3700-53fe-87f6-fd819a55913a}",
+		"{2c4de342-38b7-51cf-b940-2309a097f518}"
 	],
 	"persistedWindowLayouts" : 
 	[
@@ -17,7 +20,7 @@
 			"initialPosition" : "0,-8",
 			"initialSize" : 
 			{
-				"height" : 1368.0,
+				"height" : 1369.0,
 				"width" : 2560.0
 			},
 			"launchMode" : "maximized",
@@ -27,7 +30,7 @@
 					"action" : "newTab",
 					"commandline" : "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
 					"profile" : "Windows PowerShell",
-					"startingDirectory" : "C:\\Users\\david\\projects\\github.com\\Steinklo\\chat-web-app\\backend\\src",
+					"startingDirectory" : "C:\\Users\\david",
 					"suppressApplicationTitle" : false,
 					"tabTitle" : "Windows PowerShell"
 				},
@@ -35,7 +38,7 @@
 					"action" : "splitPane",
 					"commandline" : "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
 					"profile" : "Windows PowerShell",
-					"size" : 0.11608189344406128,
+					"size" : 0.19999992847442627,
 					"split" : "down",
 					"splitMode" : "manual",
 					"startingDirectory" : "C:\\Users\\david",
@@ -57,9 +60,13 @@
 					"startingDirectory" : "C:\\Users\\david",
 					"suppressApplicationTitle" : false,
 					"tabTitle" : "Windows PowerShell"
+				},
+				{
+					"action" : "switchToTab",
+					"index" : 0
 				}
 			]
 		}
 	],
-	"settingsHash" : "f006feee6ee01693-01d9e2803e1297c6"
+	"settingsHash" : "69320658778076fc-01da8cd6524349a4"
 }

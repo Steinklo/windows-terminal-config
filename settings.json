@@ -15,12 +15,14 @@
             "keys": "alt+h"
         },
         {
+            "command": "paste"
+        },
+        {
             "command": 
             {
-                "action": "resizePane",
-                "direction": "up"
-            },
-            "keys": "alt+k"
+                "action": "newTab",
+                "index": 1
+            }
         },
         {
             "command": 
@@ -32,12 +34,17 @@
         {
             "command": 
             {
-                "action": "newTab",
-                "index": 1
-            }
+                "action": "resizePane",
+                "direction": "up"
+            },
+            "keys": "alt+k"
         },
         {
-            "command": "paste"
+            "command": 
+            {
+                "action": "newTab",
+                "index": 2
+            }
         },
         {
             "command": 
@@ -63,17 +70,18 @@
         {
             "command": 
             {
-                "action": "newTab",
-                "index": 2
+                "action": "splitPane",
+                "split": "auto",
+                "splitMode": "duplicate"
             }
         },
         {
             "command": 
             {
                 "action": "splitPane",
-                "split": "auto",
-                "splitMode": "duplicate"
-            }
+                "split": "down"
+            },
+            "keys": "ctrl+alt+j"
         },
         {
             "command": "unbound",
@@ -460,6 +468,14 @@
         {
             "command": 
             {
+                "action": "moveFocus",
+                "direction": "left"
+            },
+            "keys": "ctrl+h"
+        },
+        {
+            "command": 
+            {
                 "action": "newTab",
                 "index": 0
             }
@@ -487,14 +503,14 @@
         {
             "command": 
             {
-                "action": "prevTab"
+                "action": "switchToTab",
+                "index": 2
             }
         },
         {
             "command": 
             {
-                "action": "switchToTab",
-                "index": 2
+                "action": "prevTab"
             }
         },
         {
@@ -516,14 +532,6 @@
                 "action": "swapPane",
                 "direction": "right"
             }
-        },
-        {
-            "command": 
-            {
-                "action": "moveFocus",
-                "direction": "left"
-            },
-            "keys": "ctrl+h"
         },
         {
             "command": 
@@ -598,14 +606,6 @@
                 "direction": "right"
             },
             "keys": "alt+l"
-        },
-        {
-            "command": 
-            {
-                "action": "splitPane",
-                "split": "down"
-            },
-            "keys": "ctrl+alt+j"
         }
     ],
     "copyFormatting": "none",
@@ -630,16 +630,21 @@
         "list": 
         [
             {
-                "backgroundImage": null,
+                "backgroundImage": "C:\\Users\\david\\OneDrive\\Bilder\\Aurora by isma-lopez on DeviantArt.jpg",
                 "backgroundImageAlignment": "bottomRight",
-                "backgroundImageOpacity": 0.19,
+                "backgroundImageOpacity": 0.09,
                 "backgroundImageStretchMode": "uniformToFill",
-                "colorScheme": "Ubuntu-20.04-ColorScheme",
+                "colorScheme": "Vintage",
                 "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
                 "experimental.retroTerminalEffect": false,
                 "font": 
                 {
-                    "size": 13.0
+                    "face": "CaskaydiaCove Nerd Font",
+                    "size": 15.0,
+			"features":
+			{
+				"calt": 0
+			}
                 },
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "hidden": false,
@@ -647,7 +652,7 @@
                 "opacity": 100,
                 "padding": "0",
                 "scrollbarState": "hidden",
-                "useAcrylic": true
+                "useAcrylic": false
             },
             {
                 "commandline": "%SystemRoot%\\System32\\cmd.exe",
@@ -672,6 +677,53 @@
                 "hidden": false,
                 "name": "Ubuntu 20.04.6 LTS",
                 "source": "CanonicalGroupLimited.Ubuntu20.04LTS_79rhkp1fndgsc"
+            },
+            {
+                "altGrAliasing": true,
+                "antialiasingMode": "grayscale",
+                "backgroundImage": null,
+                "backgroundImageAlignment": "bottomRight",
+                "backgroundImageOpacity": 0.19,
+                "backgroundImageStretchMode": "uniformToFill",
+                "closeOnExit": "automatic",
+                "colorScheme": "Ubuntu-20.04-ColorScheme",
+                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                "cursorShape": "bar",
+                "experimental.retroTerminalEffect": false,
+                "font": 
+                {
+                    "face": "Cascadia Mono",
+                    "size": 16.0
+                },
+                "guid": "{c6654fc2-a6fe-453e-9ad2-9d4f0dbd98d5}",
+                "hidden": false,
+                "historySize": 9001,
+                "icon": "ms-appx:///ProfileIcons/{61c54bbd-c2c6-5271-96e7-009a87ff44bf}.png",
+                "name": "BIG",
+                "opacity": 100,
+                "padding": "0",
+                "scrollbarState": "hidden",
+                "snapOnInput": true,
+                "startingDirectory": "%USERPROFILE%",
+                "useAcrylic": true
+            },
+            {
+                "guid": "{2febb55e-004a-5b69-9ca6-e180ffd3d0cc}",
+                "hidden": false,
+                "name": "Developer Command Prompt for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{a7d195f5-3700-53fe-87f6-fd819a55913a}",
+                "hidden": false,
+                "name": "Developer PowerShell for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+                "hidden": true,
+                "name": "Ubuntu",
+                "source": "Windows.Terminal.Wsl"
             }
         ]
     },
@@ -932,50 +984,6 @@
         }
     ],
     "startOnUserLogin": false,
-    "themes": 
-    [
-        {
-            "name": "legacyDark",
-            "tab": 
-            {
-                "background": null,
-                "showCloseButton": "always",
-                "unfocusedBackground": null
-            },
-            "window": 
-            {
-                "applicationTheme": "dark",
-                "useMica": false
-            }
-        },
-        {
-            "name": "legacyLight",
-            "tab": 
-            {
-                "background": null,
-                "showCloseButton": "always",
-                "unfocusedBackground": null
-            },
-            "window": 
-            {
-                "applicationTheme": "light",
-                "useMica": false
-            }
-        },
-        {
-            "name": "legacySystem",
-            "tab": 
-            {
-                "background": null,
-                "showCloseButton": "always",
-                "unfocusedBackground": null
-            },
-            "window": 
-            {
-                "applicationTheme": "system",
-                "useMica": false
-            }
-        }
-    ],
+    "themes": [],
     "windowingBehavior": "useAnyExisting"
 }
